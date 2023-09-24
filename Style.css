@@ -1,0 +1,542 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/* Cabeçalho e navegação */
+#cabecalho {
+    width: 100%;
+    height: 150px;
+    background-color:  #08364e;
+    clear: both;
+}
+
+#logo {
+    float: left;
+}
+
+.log {
+    height: 150px;
+    width: 280px;
+}
+
+#nav {
+    float: right;
+    display: flex;
+    margin-right: 30px;
+    padding-top: 75px;
+}
+
+.linknav {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.linknav:hover {
+    background-color:  #ffce00;
+    font-weight: bold;
+    color: #08364e;
+    transition-duration: 0.4s;
+    letter-spacing: 2px;
+}
+/* ***************************************** */
+
+
+
+/* conteudo pagina 01 */
+
+
+.conteudopg1 {
+    padding-top: 20px;
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+    display: flex;
+    border-radius: 10px;
+    border: 1px dotted #08364e;
+}
+
+.arealateral {
+    width: 240px;
+    height: 600px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+
+.postagem1 {
+    width: 660px;
+    float: right;
+    color: #08364e;
+    margin: 15px auto;
+    padding-left: 200px;
+    font-size: 17px;
+}
+
+.hist {
+    text-align: center;
+    background: #ccc;
+
+}
+
+.missv {
+    float: right;
+    color: #08364e;
+    margin: 5px auto;
+    padding: 5px;
+    font-size: 17px;
+}
+
+/*************************************************/
+
+/* conteudo pagina produtos e serviços */
+
+/*cabecalho dos produtos*/
+#espaco {
+    clear: both;
+    padding: 20px;
+}
+
+#cabecalho-produtos {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: #08364e;
+    border-radius: 10px;
+}
+
+#titulo {
+    float: right;
+    width: 75%;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#iconc {
+    width: 5%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-icon {
+    display: flex;
+    width: 45px;
+    height: 45px;
+}
+
+.amarelo {
+    color: #ffce00;
+}
+/* *********************************************************** */
+/* conteudo pagina produtos e serviços */
+
+#produtos {
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+#gird-area {
+    padding-bottom: 20px;
+    margin: 15px auto;
+    grid-row: 10px;
+    flex-direction: column;
+    display: flex;
+    column-gap: 20px;
+    row-gap: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #08364e;
+    color: white;
+
+}
+
+#txt {
+    padding-left: 10px;
+}
+
+
+#gird-area:hover {
+    box-shadow: 0 0 16px  #08364e;
+    transition-duration: 0.4s;
+}
+
+#gird-area2 {
+    padding-bottom: 20px;
+    margin: 15px auto;
+    grid-row: 10px;
+    flex-direction: column;
+    display: flex;
+    column-gap: 20px;
+    row-gap: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #08364e;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+  }
+
+#gird-area2:hover {
+    box-shadow: 0 0 16px  #08364e;
+    transition-duration: 0.4s;
+}
+
+.img-produto {
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+}
+
+.textoli {
+    font-weight: bold;
+}
+
+.textoli2 {
+    font-size: 15px;
+}
+
+
+
+#trabalhos {
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    margin: 0 auto;
+    width: 80%;
+    justify-content: center;
+}
+
+#grid-trabalho {
+    width: 500px;
+    height: 250px;
+    padding-bottom: 20px;
+    margin: 15px auto;
+    grid-row: 10px;
+    flex-direction: row;
+    display:flex;
+    column-gap: 20px;
+    row-gap: 30px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    background-color: #08364e;
+    color: white;
+}
+
+#grid-trabalho:hover{
+    box-shadow: 0 8px 16px 0 #08364e;
+    transition-duration: 0.4s;
+}
+
+.img-trabalho {
+    width: 200px;
+    height: 270px;
+    border-radius: 10px;
+}
+
+
+#bot{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+
+.botorc {
+    width: 40%;
+    height: 30px;
+    margin: 0 auto;
+    background-color: #08364e;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.botorc:hover {
+    background: #ffce00;
+    color: #08364e;
+    box-shadow: 0 8px 16px 0 white;
+    transition-duration: 0.4s;
+    letter-spacing: 2px;
+    font-weight: bold;
+    
+}
+
+
+/* ********************************************************** */
+
+/* Login e cadastro */
+
+#login {
+    margin-top: 30px;
+}
+.classic {
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #08364e;
+    width: 400px;
+    height: 250px; 
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: block;
+    flex-direction: row;
+    text-align: center;
+}
+
+.ch1{
+ text-align: center;
+ padding-top: 10px;
+ color: white;
+}
+
+.email {
+    font-weight: bold;
+    color: white;
+}
+
+.senha {
+    font-weight: bold;
+    color: white;
+}
+
+.nome {
+    font-weight: bold;
+    color: white;
+}
+
+.cadastro {
+    text-decoration: none;
+    color: white;
+}
+.cadastro:hover{
+    background-color: #ffce00;
+    color: #08364e;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    letter-spacing: 2px;
+}
+
+.Entrar{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.Entrar:hover {
+    background-color: #ffce00;
+    color: #08364e;
+    transition-duration: 0.4s;
+    letter-spacing: 2px;
+}
+
+/*************************************************/
+
+/* Orçamento */
+
+#sorcamento{
+  padding-top: 30px;
+}
+
+.itens {
+    padding-top: 10px;
+    width: 30%;
+    height: 350px;
+    margin: 0 auto;
+    background-color: #08364e;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.txtorc {
+    color: white;
+}
+
+.legenda {
+    color: white;
+}
+
+#enviar {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.enviar{
+    text-decoration: none;
+    color: white;
+}
+.enviar:hover{
+    background-color: #ffce00;
+    color: #08364e;
+    transition-duration: 0.4s;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+/*********************************************************************/
+
+/* Mensagem ORÇAMENTO */
+
+#campomensagem {
+    padding-top: 40px;
+}
+
+.mens {
+    padding-top: 20px;
+    width: 30%;
+    height: 280px;
+    margin: 0 auto;
+    background-color: #08364e;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+}
+
+.mens1 {
+    color: white;
+}
+
+.linkmen {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.linkmen:hover {
+    color: #08364e;
+    background-color: #ffce00;
+    letter-spacing: 2px;
+    transition-duration: 0.4s;
+    border-radius: 50px;
+}
+/**************************************************************/
+
+/* Contatos */
+
+#antestit{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+#tit {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-color: #08364e;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#caixacont{
+    width: 80%;
+    background-color: #08364e;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+}
+
+#caixaconts{
+    padding-left: 5px;
+    width: 40%;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.caixaqr{
+    width: 30%;
+    height: 240px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.imgqr {
+    width: 300px;
+    height: 250px;
+}
+
+.titqr{
+    color: white;
+    text-align: center;
+    border: 1px solid #08364e;
+}
+
+.titlq {
+    color: white;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+/*******************************************************************/
+
+/* Rodapé */
+
+#rodape {
+    width: 100%;
+    height: 90px;
+    background-color:  #08364e;
+    display: flex;
+    justify-content: center;
+    clear: both;
+}
+
+.p {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.footer {
+    width: 100%;
+    height: 90px;
+    background-color:  #08364e;
+    display: flex;
+    justify-content: center;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+}
